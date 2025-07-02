@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Styling & JavaScript</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Responsive Web App</h1>
+  </header>
+
+  <main>
+    <!-- Interactive Quiz -->
+    <section id="quiz-section">
+      <h2>HTML & CSS Quiz</h2>
+      <div id="quiz">
+        <p id="question">Loading question...</p>
+        <div id="options"></div>
+        <button onclick="nextQuestion()">Next Question</button>
+      </div>
+    </section>
+
+    <!-- API Data -->
+    <section id="api-section">
+      <h2>Random Joke (API)</h2>
+      <button onclick="getJoke()">Get Joke</button>
+      <p id="joke"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 WebDev Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
